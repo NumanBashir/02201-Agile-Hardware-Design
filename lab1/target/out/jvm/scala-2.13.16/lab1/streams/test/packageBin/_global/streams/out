@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/lab1/target/out/jvm/scala-2.13.16/lab1/lab1_2.13-0.1.0-SNAPSHOT-tests.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exercises$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/lab1/target/out/jvm/scala-2.13.16/lab1/test-classes/Exercises$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Exercises.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/lab1/target/out/jvm/scala-2.13.16/lab1/test-classes/Exercises.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ExercisesTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/lab1/target/out/jvm/scala-2.13.16/lab1/test-classes/ExercisesTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mwrote ${OUT}/jvm/scala-2.13.16/lab1/lab1_2.13-0.1.0-SNAPSHOT-tests.jar[0m
