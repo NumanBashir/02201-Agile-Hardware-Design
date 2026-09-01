@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(HelloTest, org.scalatest.tools.Framework$$anon$1@45e2419b, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHelloTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHello accumulator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should accumulate when enabled[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHello accumulator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not accumulate when disabled[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHello accumulator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should clear when clear signal is asserted[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mHello accumulator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle clear and enable priority correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 919 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloTest[0m

@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/lab0/target/out/jvm/scala-2.13.16/lab0/lab0_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/lab0/target/out/jvm/scala-2.13.16/lab0/classes/Hello$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/lab0/target/out/jvm/scala-2.13.16/lab0/classes/Hello$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/lab0/target/out/jvm/scala-2.13.16/lab0/classes/Hello$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/lab0/target/out/jvm/scala-2.13.16/lab0/classes/Hello.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HelloTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/lab0/target/out/jvm/scala-2.13.16/lab0/classes/HelloTest.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mwrote ${OUT}/jvm/scala-2.13.16/lab0/lab0_2.13-0.1.0-SNAPSHOT.jar[0m
