@@ -1,0 +1,111 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec c3328417-0e75-4b0e-8e38-3403f49d65cb __36468daf-cbef-4c35-9a92-a7f286e30800, None, None)
+[debug] > Exec(testOnly *, Some(__36468daf-cbef-4c35-9a92-a7f286e30800), Some(CommandSource(network-1)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing sbt/exec"})
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"1","parents":[]},"eventTime":1788851656692,"message":"Compiling lab3","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/main/scala/Mux4.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/main/scala/Accu.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/main/scala/Count6.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/main/scala/Delay.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/main/scala/Mux2.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/main/scala/Count15.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/main/scala/UseMux2.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"1","parents":[]},"eventTime":1788851656734,"message":"Compiled lab3","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Compile"},"errors":0,"warnings":0,"time":42,"noOp":true}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"2","parents":[]},"eventTime":1788851656757,"message":"Compiling lab3-test","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Test"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/test/scala/AccuSpec.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Test"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/test/scala/Count6Spec.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Test"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/test/scala/UseMux2Spec.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Test"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/test/scala/Mux2Spec.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Test"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/test/scala/DelaySpec.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Test"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/test/scala/Count15Spec.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Test"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/src/test/scala/Mux4Spec.scala"},"buildTarget":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Test"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"2","parents":[]},"eventTime":1788851656764,"message":"Compiled lab3-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Test"},"errors":0,"warnings":0,"time":7,"noOp":true}})
+[debug] > Exec(testSelected *, None, Some(CommandSource(network-1)))
+[debug] unmatched Processing event for requestId None: None
+[debug] Evaluating tasks: Test / testSelected
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"3","parents":[]},"eventTime":1788851656972,"message":"Compiling lab3","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"3","parents":[]},"eventTime":1788851656974,"message":"Compiled lab3","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Compile"},"errors":0,"warnings":0,"time":2,"noOp":true}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"4","parents":[]},"eventTime":1788851656987,"message":"Compiling lab3-test","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Test"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"4","parents":[]},"eventTime":1788851656993,"message":"Compiled lab3-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/chisel-lab/lab3/#lab3/Test"},"errors":0,"warnings":0,"time":6,"noOp":true}})
+[info] UseMux2Spec:
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"UseMux2Spec:"})
+[info] UseMux2
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"UseMux2"})
+[info] - should pass
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"- should pass"})
+[info] Count15Spec:
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Count15Spec:"})
+[info] Count15
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Count15"})
+[info] - should pass
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"- should pass"})
+[info] AccuSpec:
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"AccuSpec:"})
+[info] Accu
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Accu"})
+[info] - should pass
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"- should pass"})
+[info] Count6Spec:
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Count6Spec:"})
+[info] Count6
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Count6"})
+[info] - should pass
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"- should pass"})
+[info] Count6WaveSpec:
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Count6WaveSpec:"})
+[info] CountWave6
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"CountWave6"})
+[info] - should pass
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"- should pass"})
+[info] DelaySpec:
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"DelaySpec:"})
+[info] Delay
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Delay"})
+[info] - should pass
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"- should pass"})
+[info] Mux2Spec:
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Mux2Spec:"})
+[info] Mux2
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Mux2"})
+[info] - should pass
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"- should pass"})
+[info] Mux4Spec:
+[info] Mux4
+[info] - should pass
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Mux4Spec:"})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"Mux4"})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"- should pass"})
+[info] Run completed in 1 second, 828 milliseconds.
+[info] Total number of tests run: 8
+[info] Suites: completed 8, aborted 0
+[info] Tests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[36mRun completed in 1 second, 828 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 8\u001b[0m\n\u001b[36mSuites: completed 8, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m"})
+[debug] unmatched Done event for requestId None: None
+[debug] > Exec(sbtCompleteExec c3328417-0e75-4b0e-8e38-3403f49d65cb, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult c3328417-0e75-4b0e-8e38-3403f49d65cb, Some(c3328417-0e75-4b0e-8e38-3403f49d65cb), Some(CommandSource(network-1)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing sbt/exec"})
+[debug] > Exec(shell, None, None)
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/exec, {"status":"Queued","channelName":"network-1","execId":"48a88fae-7c5f-477d-b78a-764123f2f155","commandQueue":[],"message":"waiting for: shell"})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [false,null])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [69,120,99,101,112,116,105,111,110,32,105,110,32,116,104,114,101,97,100,32,34,115,98,116,45,110,101,116,119,111,114,107,45,49,45,119,114,105,116,101,45,116,104,114,101,97,100,34,32])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [115,106,115,111,110,110,101,119,46,83,101,114,105,97,108,105,122,97,116,105,111,110,69,120,99,101,112,116,105,111,110,58,32,101,114,114,111,114,32,119,104,105,108,101,32,119,114,105,116,105,110,103,32,116,104,101,32,102,105,101,108,100,32,112,97,114,97,109,115])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [10])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [9,97,116,32,115,106,115,111,110,110,101,119,46,112,97,99,107,97,103,101,36,46,115,101,114,105,97,108,105,122,97,116,105,111,110,69,114,114,111,114,40,112,97,99,107,97,103,101,46,115,99,97,108,97,58,50,52,41])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [10])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [9,97,116,32,115,106,115,111,110,110,101,119,46,66,117,105,108,100,101,114,46,97,100,100,70,105,101,108,100,40,66,117,105,108,100,101,114,46,115,99,97,108,97,58,52,56,41])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [10])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [9,97,116,32,115,98,116,46,105,110,116,101,114,110,97,108,46,112,114,111,116,111,99,111,108,46,99,111,100,101,99,46,74,115,111,110,82,112,99,78,111,116,105,102,105,99,97,116,105,111,110,77,101,115,115,97,103,101,70,111,114,109,97,116,115,36,36,97,110,111,110,36,49,46,119,114,105,116,101,40,74,115,111,110,82,112,99,78,111,116,105,102,105,99,97,116,105,111,110,77,101,115,115,97,103,101,70,111,114,109,97,116,115,46,115,99,97,108,97,58,52,52,41])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [10])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [9,97,116,32,115,98,116,46,105,110,116,101,114,110,97,108,46,112,114,111,116,111,99,111,108,46,99,111,100,101,99,46,74,115,111,110,82,112,99,78,111,116,105,102,105,99,97,116,105,111,110,77,101,115,115,97,103,101,70,111,114,109,97,116,115,36,36,97,110,111,110,36,49,46,119,114,105,116,101,40,74,115,111,110,82,112,99,78,111,116,105,102,105,99,97,116,105,111,110,77,101,115,115,97,103,101,70,111,114,109,97,116,115,46,115,99,97,108,97,58,51,55,41])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [10])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [9,97,116,32,115,106,115,111,110,110,101,119,46,83,117,112,112,111,114,116,67,111,110,118,101,114,116,101,114,46,116,111,74,115,111,110,85,110,115,97,102,101,40,83,117,112,112,111,114,116,67,111,110,118,101,114,116,101,114,46,115,99,97,108,97,58,50,51,41])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [10])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [9,97,116,32,115,106,115,111,110,110,101,119,46,83,117,112,112,111,114,116,67,111,110,118,101,114,116,101,114,46,116,111,74,115,111,110,85,110,115,97,102,101,36,40,83,117,112,112,111,114,116,67,111,110,118,101,114,116,101,114,46,115,99,97,108,97,58,53,41])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [10])
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/systemErr, [9,97,116,32,115,106,115,111,110,110,101,119,46,115,117,112,112,111,114,116,46,115,99,97,108,97,106,115,111,110,46,117,110,115,97,102,101,46,67,111,110,118,101,114,116,101,114,36,46,116,111,74,115,111,110,85,110,115,97,102,101,40,67,111,110,118,101,114,116,101,114,46,115,99,97,108,97,58,55,41])

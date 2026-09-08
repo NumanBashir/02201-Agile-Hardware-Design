@@ -1,0 +1,47 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 8 products, 7 sources, 7 libraries
+[debug] current source = HashSet(${BASE}/src/test/scala/AccuSpec.scala, ${BASE}/src/test/scala/Count6Spec.scala, ${BASE}/src/test/scala/UseMux2Spec.scala, ${BASE}/src/test/scala/Mux2Spec.scala, ${BASE}/src/test/scala/DelaySpec.scala, ${BASE}/src/test/scala/Count15Spec.scala, ${BASE}/src/test/scala/Mux4Spec.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: HashSet(NamesChange(Mux4,ModifiedNames(changes = UsedName(muxCD,[Default]), UsedName(muxAB,[Default]), UsedName(muxOut,[Default]))), NamesChange(UseMux2,ModifiedNames(changes = UsedName(mux,[Default]))), NamesChange(Accu,ModifiedNames(changes = UsedName(accReg,[Default]))), NamesChange(Count15,ModifiedNames(changes = UsedName(cntReg,[Default]))), NamesChange(Delay,ModifiedNames(changes = UsedName(secondReg,[Default]), UsedName(firstReg,[Default])))))
+[debug] The Mux4 has the following regular definitions changed:
+[debug] 	UsedName(muxCD,[Default]), UsedName(muxAB,[Default]), UsedName(muxOut,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Mux4: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Mux4.
+[debug] None of the modified names appears in source file of Mux4Spec. This dependency is not being considered for invalidation.
+[debug] The UseMux2 has the following regular definitions changed:
+[debug] 	UsedName(mux,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) UseMux2: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) UseMux2.
+[debug] None of the modified names appears in source file of UseMux2Spec. This dependency is not being considered for invalidation.
+[debug] The Accu has the following regular definitions changed:
+[debug] 	UsedName(accReg,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Accu: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Accu.
+[debug] None of the modified names appears in source file of AccuSpec. This dependency is not being considered for invalidation.
+[debug] The Count15 has the following regular definitions changed:
+[debug] 	UsedName(cntReg,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Count15: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Count15.
+[debug] None of the modified names appears in source file of Count15Spec. This dependency is not being considered for invalidation.
+[debug] The Delay has the following regular definitions changed:
+[debug] 	UsedName(secondReg,[Default]), UsedName(firstReg,[Default]).
+[debug] All member reference dependencies will be considered within this context.
+[debug] Files invalidated by inheriting from (external) Delay: Set()
+[debug] Now invalidating by inheritance (internally).
+[debug] Getting direct dependencies of all classes transitively invalidated by inheritance.
+[debug] Getting classes that directly depend on (external) Delay.
+[debug] None of the modified names appears in source file of DelaySpec. This dependency is not being considered for invalidation.
+[debug] No changes
+[debug] wrote ${OUT}/jvm/scala-2.13.14/lab3/test-classes

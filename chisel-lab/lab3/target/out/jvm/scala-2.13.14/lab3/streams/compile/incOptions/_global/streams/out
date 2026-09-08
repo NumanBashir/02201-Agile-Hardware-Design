@@ -1,0 +1,47 @@
+[debug] Created transactional ClassFileManager with tempDir = /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes.bak
+[debug] About to delete class files:
+[debug] 	Mux4.class
+[debug] 	Count6$$anon$1.class
+[debug] 	UseMux2$$anon$1.class
+[debug] 	Delay$$anon$1.class
+[debug] 	Mux2$$anon$1.class
+[debug] 	Delay.class
+[debug] 	Accu.class
+[debug] 	Mux4$$anon$1.class
+[debug] 	Mux2.class
+[debug] 	UseMux2.class
+[debug] 	Count15.class
+[debug] 	Count6.class
+[debug] 	Accu$$anon$1.class
+[debug] 	Count15$$anon$1.class
+[debug] We backup class files:
+[debug] 	Mux4.class
+[debug] 	Count6$$anon$1.class
+[debug] 	UseMux2$$anon$1.class
+[debug] 	Delay$$anon$1.class
+[debug] 	Mux2$$anon$1.class
+[debug] 	Delay.class
+[debug] 	Accu.class
+[debug] 	Mux4$$anon$1.class
+[debug] 	Mux2.class
+[debug] 	UseMux2.class
+[debug] 	Count15.class
+[debug] 	Count6.class
+[debug] 	Accu$$anon$1.class
+[debug] 	Count15$$anon$1.class
+[debug] Registering generated classes:
+[debug] 	Mux4.class
+[debug] 	Count6$$anon$1.class
+[debug] 	UseMux2$$anon$1.class
+[debug] 	Delay$$anon$1.class
+[debug] 	Mux2$$anon$1.class
+[debug] 	Delay.class
+[debug] 	Accu.class
+[debug] 	Mux4$$anon$1.class
+[debug] 	Mux2.class
+[debug] 	UseMux2.class
+[debug] 	Count15.class
+[debug] 	Count6.class
+[debug] 	Accu$$anon$1.class
+[debug] 	Count15$$anon$1.class
+[debug] Removing the temporary directory used for backing up class files: /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes.bak

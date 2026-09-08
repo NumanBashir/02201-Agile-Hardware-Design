@@ -1,0 +1,46 @@
+[debug] Running TaskDef(Count6WaveSpec, org.scalatest.tools.Framework$$anon$1@7476842, false, [SuiteSelector])
+[debug] Running TaskDef(UseMux2Spec, org.scalatest.tools.Framework$$anon$1@7476842, false, [SuiteSelector])
+[debug] Running TaskDef(DelaySpec, org.scalatest.tools.Framework$$anon$1@7476842, false, [SuiteSelector])
+[debug] Running TaskDef(Mux4Spec, org.scalatest.tools.Framework$$anon$1@7476842, false, [SuiteSelector])
+[debug] Running TaskDef(AccuSpec, org.scalatest.tools.Framework$$anon$1@7476842, false, [SuiteSelector])
+[debug] Running TaskDef(Count6Spec, org.scalatest.tools.Framework$$anon$1@7476842, false, [SuiteSelector])
+[debug] Running TaskDef(Mux2Spec, org.scalatest.tools.Framework$$anon$1@7476842, false, [SuiteSelector])
+[debug] Running TaskDef(Count15Spec, org.scalatest.tools.Framework$$anon$1@7476842, false, [SuiteSelector])
+[info] UseMux2Spec:
+[info] UseMux2
+[info] - should pass
+[info] Count15Spec:
+[info] Count15
+[info] - should pass
+[info] AccuSpec:
+[info] Accu
+[info] - should pass
+[info] Count6Spec:
+[info] Count6
+[info] - should pass
+[info] Count6WaveSpec:
+[info] CountWave6
+[info] - should pass
+[info] DelaySpec:
+[info] Delay
+[info] - should pass
+[info] Mux2Spec:
+[info] Mux2
+[info] - should pass
+[info] Mux4Spec:
+[info] Mux4
+[info] - should pass
+[info] Run completed in 1 second, 828 milliseconds.
+[info] Total number of tests run: 8
+[info] Suites: completed 8, aborted 0
+[info] Tests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	Count6Spec
+[debug] 	AccuSpec
+[debug] 	Mux4Spec
+[debug] 	Count15Spec
+[debug] 	Count6WaveSpec
+[debug] 	UseMux2Spec
+[debug] 	Mux2Spec
+[debug] 	DelaySpec

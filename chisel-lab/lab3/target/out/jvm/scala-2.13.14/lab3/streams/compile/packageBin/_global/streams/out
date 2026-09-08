@@ -1,0 +1,32 @@
+[debug] Packaging /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/lab3_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	Accu$$anon$1.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Accu$$anon$1.class
+[debug] 	Accu.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Accu.class
+[debug] 	Count15$$anon$1.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Count15$$anon$1.class
+[debug] 	Count15.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Count15.class
+[debug] 	Count6$$anon$1.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Count6$$anon$1.class
+[debug] 	Count6.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Count6.class
+[debug] 	Delay$$anon$1.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Delay$$anon$1.class
+[debug] 	Delay.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Delay.class
+[debug] 	Mux2$$anon$1.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Mux2$$anon$1.class
+[debug] 	Mux2.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Mux2.class
+[debug] 	Mux4$$anon$1.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Mux4$$anon$1.class
+[debug] 	Mux4.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/Mux4.class
+[debug] 	UseMux2$$anon$1.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/UseMux2$$anon$1.class
+[debug] 	UseMux2.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/classes/UseMux2.class
+[debug] Done packaging.
+[debug] wrote ${OUT}/jvm/scala-2.13.14/lab3/lab3_2.13-0.1.0-SNAPSHOT.jar

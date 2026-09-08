@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/lab3_2.13-0.1.0-SNAPSHOT-tests.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AccuSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/test-classes/AccuSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Count15Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/test-classes/Count15Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Count6Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/test-classes/Count6Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Count6WaveSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/test-classes/Count6WaveSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DelaySpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/test-classes/DelaySpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux2Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/test-classes/Mux2Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux4Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/test-classes/Mux4Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UseMux2Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab3/target/out/jvm/scala-2.13.14/lab3/test-classes/UseMux2Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mwrote ${OUT}/jvm/scala-2.13.14/lab3/lab3_2.13-0.1.0-SNAPSHOT-tests.jar[0m
