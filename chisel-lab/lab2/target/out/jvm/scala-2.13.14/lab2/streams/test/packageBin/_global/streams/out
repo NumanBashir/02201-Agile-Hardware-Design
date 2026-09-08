@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/lab2_2.13-0.1.0-SNAPSHOT-tests.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AddSubSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/test-classes/AddSubSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DecoderSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/test-classes/DecoderSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MajorityFull.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/test-classes/MajorityFull.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MajorityPrinter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/test-classes/MajorityPrinter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MajoritySimple.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/test-classes/MajoritySimple.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MaxFinderSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/test-classes/MaxFinderSpec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux2Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/test-classes/Mux2Spec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mwrote ${OUT}/jvm/scala-2.13.14/lab2/lab2_2.13-0.1.0-SNAPSHOT-tests.jar[0m

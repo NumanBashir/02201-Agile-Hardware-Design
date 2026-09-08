@@ -1,0 +1,228 @@
+# Lab 2: Combinational Circuits in Chisel
+
+The lab session will show you how to describe combinational circuits
+with Chisel. You get modules, where you need to add the description of
+combinational circuits. You will run unit tests to test your circuit.
+Optional you can also synthesize your circuit for an FPGA and test it
+with the FPGA board.
+
+Having the tests before the implementation is called test driven
+development and is common in software development, but it is also good practice
+in hardware design. This time the tests are given to you, in a later lab session
+you will write your own tests.
+
+After the lab you will know how to use the few constructs to describe
+common combinational building blocks, such as mulitplexer, encoder,
+decoder, and function tables in Chisel.
+
+We assume that you have downloaded the complete lab material from GitHub
+and it is placed in folder ```chisel-lab```.
+
+## Background Reading
+
+ * This lab is loosely based on Chapter 2 and 5 of
+*[Digital Design with Chisel](http://www.imm.dtu.dk/~masca/chisel-book.html)*
+
+## Compiling and Testing of Combinational Circuits
+
+Today's lab topic is to describe selected combinational building blocks in Chisel.
+We provide the testing code for your circuits. You have completed all exercises
+when all tests (run with ```sbt test```) complete without an error.
+
+With IntelliJ import the lab2 project as follows:
+
+ * Start IntelliJ
+ * Click *Import Project*, or on a running IntelliJ: *File - New -
+Project from Existing Source...*
+ * Navigate to ```.../chisel-lab/lab2``` and select the file ```build.sbt```, press *Open*
+ * Make sure to select a JDK 1.8 or later
+ * Press OK on the next dialog box
+ 
+### A Majority Voter
+
+We start as first exercise with a relative simple circuit, a majority voter.
+
+Navigate to the Chisel component ```Majority``` by following in the Project navigator along: *lab2 - src - main - scala - Majority*.
+Open ```Majority``` with a double click.
+
+This is a Chisel component that shall implement the majority voting of three
+signals (```a```, ```b```, and ```c```). Majority voting means that the output of
+the circuit is the majority of the inputs, e.g., if ```a==1```, ```b==0```, and
+```c==1``` the result shall be ```1```. See Dally 3.6 for a solution in VHDL.
+Your task is to implement that circuit in Chisel.
+
+
+Open the terminal at the bottom of the IntelliJ window and run:
+```
+sbt test
+```
+to compile and test your project.
+
+In the *Run* window, you should see several tests failing, similar to:
+```
+[info] Suites: completed 7, aborted 0
+[info] Tests: succeeded 2, failed 5, canceled 0, ignored 0, pending 0
+[info] *** 5 TESTS FAILED ***
+```
+
+For the majority circuit, we provide three *tests*:
+
+ 1. ```MajorityPrinter```: A test that simply prints the logic table of the
+   circuit. This form of test is helpful for debugging, but not for
+   automated regression tests.
+ 1. ```MajoritySimple```: A too simple test that covers only some cases
+   and will succeed for the too simple default implementation. This shows
+   you that testing can usually not guarantee a 100% correct solution.
+ 1. ```MajorityFull```: is an exhaustive tester that covers all possibilities.
+   This is the best form of a tester. However, exhaustive testing is only
+   possible for very simple circuits.
+   
+You run a single test with following command in the terminal window:
+
+```
+sbt "testOnly MajorityPrinter"
+```
+
+Run the ```MajorityPrinter``` and watch the printout of the logic table:
+
+```
+Logic table for Majority
+  a     b     c   -> out
+false false false -> 0
+true false false -> 1
+false true false -> 0
+true true false -> 1
+false false true -> 0
+true false true -> 1
+false true true -> 0
+true true true -> 1
+[info] MajorityPrinter:
+[info] Majority print results
+[info] - should pass
+[info] Run completed in 1 second, 246 milliseconds.
+[info] Total number of tests run: 1
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+```
+
+This shows that the default implementation just copies the value of ```a```
+to the output. Clearly not a majority circuit. Change the Majority component
+to implement the majority circuit. You can watch the logic table for debugging.
+However, at the end run:
+```
+sbt "testOnly MajorityFull"
+```
+to make sure you have completed this exercise.
+   
+
+### Optional: Generating Hardware
+
+In lab1 you have learned how to generate hardware to run in an FPGA.
+In the current lab exercise you use testing to run your combinational circuit.
+However, we can also run those circuits on the FPGA board and use switches
+and LEDs to test the circuits.
+
+Generate the Verilog description by running the Majority App with:
+```
+sbt run
+```
+If there are more than one App in a project, you need to select which one
+to run, the ```Majority```. Like the test cases, you can also directly
+select which App to run by:
+```
+sbt "runMain Majority"
+```
+
+Create a Xiling Vivado project with the source file ```Majority.v``` and
+the constraint file ```majority.xdc``` that includes the pin definitions.
+Synthesize and implement the design, create the bitstream, configure the
+FPGA, and test the device with the three switches ```sw0```, ```sw1```,
+and ```sw2```.
+
+Although testing in real hardware gives confidence that the design works
+it has two drawbacks: (1) synthesizing, even a small design, consumes a
+considerable amount of time and (2) it is manual.
+With tests written in Chisel the testing is faster and easier to reproduce
+and automate.
+
+### A Multiplexer (Mux)
+
+![Mux](../figures/mux.svg)
+
+A multiplexer selects between different input signals. In the above figure
+it is a 2:1 multiplexer. With ```sel``` we route either input ```a``` or
+input ```b``` to output ```y```. We assume in this example that ```a```
+is selected when ```sel``` is ```0``` or ```false```, otherwise  ```b```.
+
+Open the ```Mux2``` component to implement the multiplexer.
+You can test your implementation with:
+```
+sbt "testOnly Mux2Spec"
+```
+
+A low-level solution would be to describe the multiplexing function
+as Boolean equation, such as ```(!sel & a) | (sel & b)```.
+This is correct (try it in ```Mux2```), but hard to read.
+Furthermore, this equation does not work so easily with multi-bit
+values.
+
+A better solution is to conditional assignment, in Chisel
+with ```when``` and ```.otherwise```.
+Look it up in Chapter 5 of the Chisel book and implement the
+Multiplexer.
+
+As multiplexing is such a fundamental operation, that Chisel
+provides a multiplexer component ```Mux```.
+Implement you final version of a multiplexer by using the ```Mux```
+component.
+
+The *cool* thing on the ```Mux``` component is that it can multiplex
+arbitrary complex data structures, not just a vector of bits.
+Any user defined data type will work with ```Mux```.
+
+### A Decoder
+
+![Decoder](../figures/decoder.svg)
+
+The next exercise is to describe a 2-bit decoder. The test is called
+as follows:
+
+```
+sbt "testOnly DecoderSpec"
+```
+
+You can find the skeleton of the exercise in ```Decoder.scala```.
+Fill in the missing statement(s). A Chisel ```switch``` statement is probably
+the most elegant solution, but other solutions are valid as well.
+
+### Addition/Subtraction Circuit
+
+In the next exercise you have to build a small arithmetic circuit.
+The circuit shall be able to add or subtract two unsigned integer.
+One input (```selAdd```) decides if the two numbers are added or
+subtracted (sounds like a multiplexer). The test is called as:
+
+```
+ sbt "testOnly AddSubSpec"
+```
+
+The file for your solution is ```AddSub```.
+
+### A Maximum Finder
+
+The next exercise is to build a circuit that finds the maximum
+among four unsigned integers. The test for this module is called as:
+
+```
+ sbt "testOnly MaxFinderSpec"
+```
+
+A skeleton for a solution can be found in  ```MaxFinder.scala```. You will have to use multiplexers to select between the four inputs `a`, `b`, `c`, and `d`. Use the `Mux(sel, trueCase, falseCase)` function. Each time you use `Mux`, you create a new multiplexer; how many do you need to find the largest number? To compare two numbers, you can use the greater-than operator `>`. What kind of circuit does this create, and how many comparators are needed?
+
+#### Optional: Providing the index of the Maximum
+
+As an optional exercise, you can extend the maximum finder to also
+provide the index of the maximum value. For example, if input `c`
+is the largest value, the output index shall be `2` (assuming
+`a` has index `0`, `b` index `1`, `c` index `2`, and `d` index `3`). What additional resources do you need to provide this functionality? To check your behavior, you can modify the existing test `MaxFinderSpec` to also check the index output. Adding the index adds some ambiguity: what if two or more inputs have the same maximum value? 

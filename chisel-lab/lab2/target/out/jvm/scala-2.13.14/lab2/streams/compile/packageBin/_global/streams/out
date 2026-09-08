@@ -1,0 +1,28 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/lab2_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AddSub$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/AddSub$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AddSub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/AddSub.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decoder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/Decoder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Decoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/Decoder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Majority$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/Majority$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Majority$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/Majority$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Majority$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/Majority$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Majority.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/Majority.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MaxFinder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/MaxFinder$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MaxFinder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/MaxFinder.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/Mux2$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Mux2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/chisel-lab/lab2/target/out/jvm/scala-2.13.14/lab2/classes/Mux2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mwrote ${OUT}/jvm/scala-2.13.14/lab2/lab2_2.13-0.1.0-SNAPSHOT.jar[0m
