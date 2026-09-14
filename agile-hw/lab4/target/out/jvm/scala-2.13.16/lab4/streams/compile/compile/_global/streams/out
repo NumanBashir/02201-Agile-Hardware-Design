@@ -1,0 +1,4 @@
+[error] /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/src/main/scala/MaxFinder.scala:23:9: object stage is not a member of package chisel3.util.circt
+[error]   circt.stage.ChiselStage.emitSystemVerilogFile(
+[error]         ^
+[error] one error found

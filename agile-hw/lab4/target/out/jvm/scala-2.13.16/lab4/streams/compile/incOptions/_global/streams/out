@@ -1,0 +1,13 @@
+[debug] Created transactional ClassFileManager with tempDir = /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Created transactional ClassFileManager with tempDir = /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	MaxFinderVerilog.class
+[debug] 	MaxFinder.class
+[debug] 	MaxFinderVerilog$delayedInit$body.class
+[debug] 	MaxFinderVerilog$.class
+[debug] 	MaxFinder$$anon$1.class
+[debug] Removing the temporary directory used for backing up class files: /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/classes.bak

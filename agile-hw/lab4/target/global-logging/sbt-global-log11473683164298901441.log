@@ -1,0 +1,92 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 2.0.8 (Homebrew Java 26.0.2.1)
+[debug] Load.defaultLoad until apply took 24.8725ms
+[debug]           Load.loadUnit: plugins took 17.30025ms
+[debug]           Load.loadUnit: defsScala took 0.077791ms
+[debug] [Loading] Scanning directory /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.DependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.DependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.DependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 5.448625 ms
+[debug]               Load.resolveProjectSettings(lab4-build) took 16.146292ms
+[debug]             Load.loadTransitive: processProject(Project(id lab4-build, base: /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/project, plugins: List(<none>))) took 24.769208ms
+[debug] [Loading] Done in /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/project, returning: (lab4-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 32.638709ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.082375ms
+[debug]         Load.loadUnit(file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/agile-hw/lab4/project/, ...) took 52.960709ms
+[debug]       Load.apply: load took 318.032417ms
+[debug]       Load.apply: resolveProjects took 5.094834ms
+[debug]       Load.apply: buildConfigurations took 48.101459ms
+[debug]       Load.apply: finalTransforms took 50.170084ms
+[debug]       Load.apply: config.delegates took 2.497375ms
+[debug]       Load.apply: Def.make(settings)... took 189.141125ms
+[debug]       Load.apply: structureIndex took 47.50575ms
+[debug]       Load.apply: mkStreams took 0.533125ms
+[info] loading project definition from /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 1054.765125ms
+[debug]     Load.loadUnit: defsScala took 0.0015ms
+[debug] [Loading] Scanning directory /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4
+[debug]       Load.loadUnit: mkEval took 1.583291ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.DependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.DependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.DependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.205375 ms
+[debug]         Load.resolveProjectSettings(lab4) took 0.312459ms
+[debug]       Load.loadTransitive: processProject(Project(id lab4, base: /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4, plugins: List(<none>))) took 2.11425ms
+[debug] [Loading] Done in /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4, returning: (lab4)
+[debug]     Load.loadUnit: loadedProjectsRaw took 72.375459ms
+[debug]     Load.loadUnit: cleanEvalClasses took 0.820541ms
+[debug]   Load.loadUnit(file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/agile-hw/lab4/, ...) took 1128.504583ms
+[debug] Load.apply: load took 1134.803292ms
+[debug] Load.apply: resolveProjects took 0.085667ms
+[debug] Load.apply: buildConfigurations took 6.377792ms
+[debug] Load.apply: finalTransforms took 3.802916ms
+[debug] Load.apply: config.delegates took 0.105334ms
+[debug] Load.apply: Def.make(settings)... took 54.386417ms
+[debug] Load.apply: structureIndex took 15.14875ms
+[debug] Load.apply: mkStreams took 0.001875ms
+[info] set current project to lab4 (in build file:/Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201%20Agile%20Hardware%20Design/agile-hw/lab4/)
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[debug] sbt server started at local:///Users/numanbashir/.config/sbt/2/server/0ac039bce25b6130a0f2/sock
+[debug] Writing bsp connection file
+[debug] started sbt server
+[debug] jsonRpcRequest: JsonRpcRequestMessage(2.0, 0dc1b320-cee9-4286-84fb-8c9554468f00, sbt/terminalPropertiesQuery, ""})

@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MaxFinderTest, org.scalatest.tools.Framework$$anon$1@15844b08, true, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMaxFinderTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMaxFinder[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should find the maximum value in a Vec[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match a software maximum for 1 inputs of 1 bits[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match a software maximum for 2 inputs of 4 bits[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match a software maximum for 3 inputs of 8 bits[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match a software maximum for 5 inputs of 12 bits[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match a software maximum for 8 inputs of 16 bits[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 989 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 6, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MaxFinderTest[0m

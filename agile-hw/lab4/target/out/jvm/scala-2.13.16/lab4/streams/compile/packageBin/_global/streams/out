@@ -1,0 +1,14 @@
+[debug] Packaging /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/lab4_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	MaxFinder$$anon$1.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/classes/MaxFinder$$anon$1.class
+[debug] 	MaxFinder.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/classes/MaxFinder.class
+[debug] 	MaxFinderVerilog$.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/classes/MaxFinderVerilog$.class
+[debug] 	MaxFinderVerilog$delayedInit$body.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/classes/MaxFinderVerilog$delayedInit$body.class
+[debug] 	MaxFinderVerilog.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/classes/MaxFinderVerilog.class
+[debug] Done packaging.
+[debug] wrote ${OUT}/jvm/scala-2.13.16/lab4/lab4_2.13-0.1.0-SNAPSHOT.jar

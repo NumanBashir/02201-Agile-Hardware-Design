@@ -1,0 +1,21 @@
+FIRRTL version 1.2.0
+circuit MaxFinder :
+  module MaxFinder : @[src/main/scala/MaxFinder.scala 9:7]
+    input clock : Clock @[src/main/scala/MaxFinder.scala 9:7]
+    input reset : UInt<1> @[src/main/scala/MaxFinder.scala 9:7]
+    input io_in_0 : UInt<12> @[src/main/scala/MaxFinder.scala 13:14]
+    input io_in_1 : UInt<12> @[src/main/scala/MaxFinder.scala 13:14]
+    input io_in_2 : UInt<12> @[src/main/scala/MaxFinder.scala 13:14]
+    input io_in_3 : UInt<12> @[src/main/scala/MaxFinder.scala 13:14]
+    input io_in_4 : UInt<12> @[src/main/scala/MaxFinder.scala 13:14]
+    output io_max : UInt<12> @[src/main/scala/MaxFinder.scala 13:14]
+
+    node _io_max_T = gt(io_in_3, io_in_4) @[src/main/scala/MaxFinder.scala 19:46]
+    node _io_max_T_1 = mux(_io_max_T, io_in_3, io_in_4) @[src/main/scala/MaxFinder.scala 19:43]
+    node _io_max_T_2 = gt(io_in_0, io_in_1) @[src/main/scala/MaxFinder.scala 19:46]
+    node _io_max_T_3 = mux(_io_max_T_2, io_in_0, io_in_1) @[src/main/scala/MaxFinder.scala 19:43]
+    node _io_max_T_4 = gt(io_in_2, _io_max_T_1) @[src/main/scala/MaxFinder.scala 19:46]
+    node _io_max_T_5 = mux(_io_max_T_4, io_in_2, _io_max_T_1) @[src/main/scala/MaxFinder.scala 19:43]
+    node _io_max_T_6 = gt(_io_max_T_3, _io_max_T_5) @[src/main/scala/MaxFinder.scala 19:46]
+    node _io_max_T_7 = mux(_io_max_T_6, _io_max_T_3, _io_max_T_5) @[src/main/scala/MaxFinder.scala 19:43]
+    io_max <= _io_max_T_7 @[src/main/scala/MaxFinder.scala 19:10]
