@@ -20,6 +20,14 @@ The course covers the following topics:
 
 Overall, the course will provide the students with a comprehensive understanding of agile hardware design with Chisel, enabling them to design and implement complex digital circuits via generators.
 
+## Working Copy and Course Updates
+
+Lab numbering matches the upstream layout as of 2026-09-22:
+lab2 is MaxFinder, lab3 is the generic multiplexer, and lab4 is the CSR adapter generator.
+Our completed solutions are in lab2 and lab3. The separate `../references/agile-hw`
+checkout contains current upstream material; see [reference instructions](../references/README.md)
+for updates. The `chisel-lab` exercises keep their original numbering.
+
 ## Getting Started
 
  * Install the tools as described in [Setup.md](Setup.md).
@@ -47,16 +55,19 @@ Overall, the course will provide the students with a comprehensive understanding
 ### Week 3: Simple Generators (Kasper)
 
  * [Slides](03_simp_gen.pdf)
- * Labs: [lab4](lab4) and [lab5](lab5)
+ * Labs: [lab2](lab2) and [lab3](lab3)
 
 ### Week 4: Generators
 
  * [Slides](05_generators.pdf)
- * Project presentations
+ * Lab: [lab4](lab4) — CSR Adapter Generator
 
 ### Week 5: Digital Design with LLMs in Industry (Ioannis)
 
 Experiences of using LLMs at Microchip.
+
+ * Project presentations
+ * Lab: project work
 
 
 ### Week 6: Testing and CI
@@ -88,7 +99,6 @@ Experiences of using LLMs at Microchip.
 ### Week 11: Chisel in Research
 
  * [Slides](tbd.pdf)
- * Lab: [lab11](lab11)
 
 
 ## Group Projects 2025

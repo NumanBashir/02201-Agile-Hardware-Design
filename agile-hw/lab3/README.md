@@ -48,7 +48,7 @@ Bundles of data fields work too: all fields of the selected input travel
 together. All four inputs and the output have the type and width given by
 `gen`. The selector chooses a value at runtime; it does not change its type.
 
-Run these commands from `agile-hw/lab5`:
+Run these commands from `agile-hw/lab3`:
 
 ```sh
 sbt "testOnly GenericMux4Test"

@@ -12,8 +12,6 @@ addCompilerPlugin("org.chipsalliance" % "chisel-plugin" % chiselVersion cross Cr
 libraryDependencies += "org.chipsalliance" %% "chisel" % chiselVersion
 libraryDependencies += "edu.berkeley.cs" %% "chiseltest" % "6.0.0"
 
-libraryDependencies += "org.apache.poi" % "poi-ooxml" % "3.17"
-
 /*
 scalaVersion := "2.13.14"
 val chiselVersion = "3.6.1"
