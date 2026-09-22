@@ -9,7 +9,7 @@ class GeneratorTest extends AnyFlatSpec with ChiselScalatestTester {
 
 
   val annotations = if (enableWaveform) {
-    Seq(VerilatorBackendAnnotation, WriteVcdAnnotation)
+    Seq(WriteVcdAnnotation)
   } else {
     Seq()
   }
@@ -39,6 +39,8 @@ class GeneratorTest extends AnyFlatSpec with ChiselScalatestTester {
 
   "Python CSR Generator" should "generate CSR adapter for soc.xlsx" in {
 
+    assume(sys.env.get("RUN_PYTHON_REFERENCE").contains("1"),
+      "Optional Python blackbox test: set RUN_PYTHON_REFERENCE=1 and install Verilator")
     test(new PythonSocAdapterWrapper)
       .withAnnotations(Seq(VerilatorBackendAnnotation) ++ annotations) {
         dut =>

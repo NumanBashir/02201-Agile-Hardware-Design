@@ -169,3 +169,62 @@ Using the python generator as a reference, implement the circuit generator in Ch
 - How will you organize your data, such that it suits your implementation best?
 - How will you test your implementation?
 
+
+## Completed Chisel solution
+
+`src/main/scala/CsrAdapter.scala` loads the spreadsheet during hardware generation,
+validates field descriptions, and creates a nested `DynamicBundle` interface.
+For example, `csr("uart0")` contains `ctrl`, `status`, and `data` bundles;
+trigger fields contain `data` and `trg`. Constants have no external CSR port.
+The generated circuit does not read Excel at runtime.
+
+Supported fields:
+
+| Type | Behavior |
+| --- | --- |
+| `rw` | Register, readable/writable over APB; value exposed to hardware |
+| `ro` | Hardware input exposed on APB reads |
+| `wotrg` | Write captures data in a register and asserts an access-cycle trigger |
+| `rotrg` | Read returns hardware data and asserts an access-cycle trigger |
+| `const` | Hardwired read-only value |
+
+The APB slave uses no wait states. `pready` is asserted during an active access
+(`psel && penable`, outside reset). Writes take effect at the completion edge;
+setup and idle cycles have no side effects. Trigger signals are high during
+accepted accesses and low otherwise. Write-trigger data is the stored value,
+updated at the completion edge, matching the reference's registered-data model.
+Unused read bits are zero. Invalid, unaligned, and forbidden-direction accesses
+return `pslverr`; a register with at least one field permitting the direction is
+accessible, while other fields are preserved/omitted. Read-only and write-only
+fields may share bit positions, as in UART transmit/receive data.
+
+Spreadsheet initial values are used on reset. `?` means no specified initial
+value: writable fields with `?` are uninitialized until written. The parser checks
+field widths, initial values, duplicate paths, access-direction overlaps, and
+aligned 32-bit register addresses inside each block's range.
+
+From this directory:
+
+```sh
+sbt "testOnly CsrAdapterTest GeneratorTest"
+sbt "runMain CsrAdapter"
+```
+
+The generator writes `generated/CsrAdapter.sv`. A different spreadsheet can be
+passed with `sbt "runMain CsrAdapter path/to/description.xlsx"`.
+
+The five Chisel tests cover reset, writable masks, random independent GPIO-bank
+values, read-only inputs, constants, errors, trigger timing, aborted setups, and
+a second map (`src/test/resources/tiny.xlsx`) with different fields and addresses.
+The supplied Python blackbox test remains available but is explicitly canceled
+by default because it requires Verilator. To run it after installing Verilator
+and the Python dependencies and generating the reference:
+
+```sh
+python3 csr_adapter_gen.py soc.xlsx
+RUN_PYTHON_REFERENCE=1 sbt "testOnly GeneratorTest"
+```
+
+The Chisel tests use the default simulator and do not require Verilator. The
+original Python generator is left unchanged. FPGA synthesis/programming and
+Python blackbox simulation have not been performed for this solution.

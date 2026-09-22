@@ -1,0 +1,20 @@
+[debug] Packaging /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/lab4_2.13-0.1.0-SNAPSHOT-tests.jar ...
+[debug] Input file mappings:
+[debug] 	ApbMasterBfm.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/test-classes/ApbMasterBfm.class
+[debug] 	CsrAdapterTest.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/test-classes/CsrAdapterTest.class
+[debug] 	GeneratorTest.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/test-classes/GeneratorTest.class
+[debug] 	PythonSocAdapter$$anon$2.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/test-classes/PythonSocAdapter$$anon$2.class
+[debug] 	PythonSocAdapter.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/test-classes/PythonSocAdapter.class
+[debug] 	PythonSocAdapterWrapper$$anon$1.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/test-classes/PythonSocAdapterWrapper$$anon$1.class
+[debug] 	PythonSocAdapterWrapper.class
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/target/out/jvm/scala-2.13.16/lab4/test-classes/PythonSocAdapterWrapper.class
+[debug] 	tiny.xlsx
+[debug] 	  /Users/numanbashir/Documents/DTU/Kandidat/3.Semester/02201 Agile Hardware Design/agile-hw/lab4/src/test/resources/tiny.xlsx
+[debug] Done packaging.
+[debug] wrote ${OUT}/jvm/scala-2.13.16/lab4/lab4_2.13-0.1.0-SNAPSHOT-tests.jar

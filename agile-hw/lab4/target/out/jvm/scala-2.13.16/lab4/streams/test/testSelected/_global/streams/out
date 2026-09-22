@@ -1,0 +1,22 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CsrAdapterTest, org.scalatest.tools.Framework$$anon$1@41c18c3c, true, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(GeneratorTest, org.scalatest.tools.Framework$$anon$1@41c18c3c, true, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mGeneratorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mChisel CSR Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate CSR adapter for soc.xlsx[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPython CSR Generator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- should generate CSR adapter for soc.xlsx !!! CANCELED !!![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m  None did not contain "1" Optional Python blackbox test: set RUN_PYTHON_REFERENCE=1 and install Verilator (GeneratorTest.scala:42)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCsrAdapterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCSR adapter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should reset, mask writes, and keep GPIO banks independent[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pack hardware inputs and reject invalid or forbidden accesses[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should gate writes and triggers with APB access and preserve trigger data[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate a different register map from a second spreadsheet[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 484 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 1, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CsrAdapterTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GeneratorTest[0m

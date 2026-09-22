@@ -30,7 +30,9 @@ object Sheet {
 
   def load(filepath: String): Map[String, Sheet] = {
 
-    val workbook = new XSSFWorkbook(new FileInputStream(new File(filepath)))
+    val stream = new FileInputStream(new File(filepath))
+    val workbook = try new XSSFWorkbook(stream) finally stream.close()
+    try {
 
     val sheetMap = mutable.Map[String, Sheet]()
     workbook.forEach { sheet =>
@@ -56,6 +58,7 @@ object Sheet {
     }
 
     sheetMap.toMap
+    } finally workbook.close()
   }
 
   // go through first column and find last non-empty row
